@@ -1,7 +1,21 @@
 # vim
-vim 直接进入vim => i 插入 => hello world => ESC => : => wq aaa.txt
 
-vim test 打开
+## 模式
+
+```
+// 普通模式
+vim test
+```
+
+```
+// 插入模式
+i
+```
+
+```
+// 命令行模式
+ESC => : => wq aaa.txt
+```
 
 i 插前
 a 插后
