@@ -228,3 +228,22 @@ y  复制选中内容到0号寄存器
 u // 后退
 ctrl + r // 前进，恢复上一步被撤销的操作
 ```
+
+## 配置
+
+```
+vim ~/.vimrc
+set nocompatible            "取消与vi的兼容"
+set nu                      "设置行号" 
+set ts=4                    "一个 tabstop 等于 4 个空格"
+set ai                      "自动缩进"
+set sw=4                    "自动缩进尺寸为 4 个空格"
+set hls                     "打开搜索高亮"
+set lbr                     "不在单词中间折行"
+set si                      "智能缩进（smartindent），配合自动缩进使用"
+set et
+set smarttab                "一个 Backspace 删除 4 个行首的空格"
+set fileencoding="utf-8"
+syntax on                   "语法高亮"
+set cindent                 "设置类似 C 语言风格的缩进"
+```
